@@ -7,6 +7,7 @@ module.exports = {
     'airbnb-base',
     'airbnb-typescript/base',
     'plugin:vue/vue3-recommended',
+    'plugin:vuejs-accessibility/recommended',
   ],
   parserOptions: {
     ecmaVersion: 12,
@@ -18,6 +19,7 @@ module.exports = {
   plugins: [
     'vue',
     '@typescript-eslint',
+    'vuejs-accessibility',
   ],
   rules: {
     'no-undef': 'off',
